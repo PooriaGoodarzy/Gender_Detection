@@ -7,8 +7,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D, GlobalMaxPooling2D
 from sklearn.model_selection import train_test_split
 
-#
-Base_dir = 'E:/AioLearn - AI/Project/age & gender_detection/UTKFace_dataset'
+# load dataset_UTKface
+Base_dir = 'UTKFace_dataset/'
 
 # preprocessing
 images = os.listdir(Base_dir)
